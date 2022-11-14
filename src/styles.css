@@ -1,0 +1,73 @@
+body {
+  background-color: #8850ec;
+  opacity: 1;
+  background-image: radial-gradient(#ffffff 1.8px, #8850ec 1.8px);
+  background-size: 36px 36px;
+}
+.form-control {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.btn {
+  margin-top: 30px;
+}
+
+.main-body {
+  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  border-radius: 16px;
+  border: 3px solid white;
+  padding: 80px;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sun {
+  border-radius: 50px;
+  width: 200px;
+  float: left;
+}
+.barcelona {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.spain {
+  font-weight: 300;
+}
+.time {
+  margin-left: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.weather-description {
+  margin-left: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(105, 28, 237);
+}
+.weather-info {
+  font-size: 20px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+.temperature {
+  font-size: 60px;
+  position: relative;
+  top: 35px;
+  left: 18px;
+}

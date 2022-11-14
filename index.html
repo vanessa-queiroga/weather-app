@@ -3,11 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Test Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>☀️ Weather App</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
   </head>
+
   <body>
-    <h1>hello world</h1>
-    <h2>Test 1 Test 2</h2>
+    <div class="container">
+      <form class="row search-bar" id="search-bar">
+        <div class="col">
+          <input
+            class="form-control"
+            placeholder="Search"
+            autofocus
+            id="city-search"
+            h
+          />
+        </div>
+        <div class="col">
+          <button type="submit" class="btn btn-primary mb-3">Search</button>
+          <button
+            type="button"
+            class="btn btn-success mb-3"
+            id="current-button"
+          >
+            Current
+          </button>
+        </div>
+      </form>
+      <div class="main-body">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="barcelona" id="country-title">
+              Barcelona, <span class="spain">Spain</span>
+            </h1>
+            <div class="weather-description">Weather Pending</div>
+            <div class="time">Date Pending</div>
+          </div>
+          <div class="col-6">
+            <div class="weather-info">
+              <ul>
+                <li id="max-temp">Max Temperature: 0%</li>
+                <li id="humidity-li">Humidity: 41%</li>
+                <li id="wind-speed">Wind: 13 km/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="https://duckduckgo.com/assets/weather/icons/partly-cloudy-day.svg"
+              alt="sun"
+              class="sun"
+            />
+            <span class="temperature">
+              <span class="number-temp">21°</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer><link rel="stylesheet" href="src/styles.css" /></footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
