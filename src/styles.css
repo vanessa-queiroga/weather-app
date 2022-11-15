@@ -71,3 +71,18 @@ ul {
   top: 35px;
   left: 18px;
 }
+.git-code {
+  text-align: center;
+  font-family: monospace;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #8850ec;
+}
+
+.git-link {
+  text-decoration: none;
+  color: aqua;
+}
+.git-link:hover {
+  color: #fa71cd;
+}
